@@ -1,0 +1,30 @@
+.apply {
+    background: var(--color-apply);
+    display: flex;
+    flex-direction: column;
+}
+
+.apply__header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: min(10vw, 1rem);
+}
+
+.apply__header h1 {
+    font-style: var(--font-type1);
+    font-size: var(--font-size__header);
+    color: var(--color-text1);
+    font-weight: 800;
+}
+
+.apply__description {
+    margin-bottom: min(20vw, 3rem);
+}
+
+.apply__description p {
+    font-style: var(--font-type2);
+    font-size: var(--font-size__text);
+    font-weight: 500;
+    color: var(--color-text-description);
+}

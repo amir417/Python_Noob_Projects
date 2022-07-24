@@ -1,0 +1,67 @@
+.projects {
+    background: var(--color-projects);
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h2 {
+    align-self: center;
+    font-style: var(--font-type1);
+    font-size: var(--font-size__header);
+    color: var(--color-text1);
+    font-weight: 800;
+    margin-bottom: min(5vw, 1.5rem);
+}
+
+.projects p {
+    font-size: var(--font-size__title);
+    font-style: var(--font-type1);
+    font-weight: 500;
+    color: var(--color-text-description);
+    margin-bottom: min(7vw, 2.7rem);
+}
+
+.project__container-title {
+    align-self: center;
+}
+
+.project__container-title p {
+    font-size: var(--font-size__sub_header);
+    font-style: var(--font-type2);
+    font-weight: 600;
+    color: var(--color-text1);
+}
+
+.project__container-identifier {
+    display: inline-block;
+}
+
+.project__container-identifier p,
+.project__container-description p {
+    font-size: var(--font-size__text);
+    font-style: var(--font-type1);
+    font-weight: 800;
+    color: var(--color-text-description);
+}
+
+.project__container-identifier h1 {
+    display: inline-block;
+    margin-left: min(2vw, 0.5rem);
+    font-size: var(--font-size__text);
+    font-style: var(--font-type1);
+    font-weight: 500;
+    color: var(--color-text-description);
+}
+
+.project__container-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__container-description h1 {
+    font-size: var(--font-size__text);
+    font-style: var(--font-type1);
+    font-weight: 500;
+    color: var(--color-text-description);
+    margin-bottom: min(15vw, 3rem);
+}

@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--color-footer);
+    padding: min(5vw, 2.8rem) min(5vw, 5.8rem);
+    border-top: black;
+    border-top-style: groove;
+    border-top-width: min(5vw, 0.5rem);
+}
+
+.footer p {
+    font-weight: 500;
+    font-style: var(--font-size__title);
+    font-family: var(--font-type1);
+    font-size: var(--font-size__text);
+    color: var(--color-text1);
+}
