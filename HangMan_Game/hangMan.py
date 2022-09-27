@@ -22,7 +22,7 @@ al = list(alphabet_string)
 life = len(randomWord)
 print ("Welcome to Hang Man game. You will be guessing a word with", len(randomWord), "letters. \nYou have", life, "lives to start with. Let's get started!")
 print ("The words were pulled from: ", word_site)
-print (rw)
+# print (rw)
 my_dict = {i:rw.count(i) for i in rw}
 # print (my_dict)
 final = list("_" * len(rw))
